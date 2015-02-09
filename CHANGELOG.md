@@ -1,3 +1,86 @@
+# 0.2.91
+* fix: fileExistsWithCaseSync 在 Windows 平台错误
+
+# 0.2.90
+* fix: mock 支持 post
+
+# 0.2.89
+* add: vm 支持 include
+* add: vmjs 中可以使用 request , response 
+* fix: 开发时 require 区分大小写
+* fix: fekit test 命令找不到测试用例时的提示不够友好且无法找到命令 Fixes #57
+* add: fekit vm 添加 layout Fixes #64
+* fix: 编译非标准js/css文件生成的version.mapping扩展名修正为js/css Fixes #72
+* fix: fekit 预编译 sass 文件模块去重 Fixes #54
+* add: stylus支持 from netwjx
+
+# 0.2.88
+* update: sass升级到`1.2.3`支持`BEM`等特性
+
+# 0.2.87
+* fix: ip代理
+
+# 0.2.86
+* add: server 增加代理模式
+
+# 0.2.85
+* add: sync 添加远程通用脚本执行
+* add: sync 添加初始化功能
+
+# 0.2.84
+* add: pack 时添加 ver 处理
+* add: 配置中加入 refs， refs用于js/css之外的文件发布目录内容，在 pack 与 min 后执行
+
+# 0.2.83
+* fix: 修复模板文件名包含多 '.' 问题
+
+# 0.2.82
+* fix: 修复在 CMD 中 rsync 运行出错的问题，并增加提示
+* add: 为 .string, .handlebars 添加模块化支持
+
+# 0.2.81
+* fix: 在上一版本解决问题中，出现其他问题，做相应恢复
+
+# 0.2.80
+* fix: require 文件名中含有多个 '.' 时的 bug
+* fix: mustache 预编译，在非模块编译时的 bug
+* add: 添加部分文档
+
+# 0.2.79
+* add: export 指令
+* add: mustache 预编译添加模块导出
+
+# 0.2.78
+* add: mock jsonp 回调名称的配置
+* add: mock raw 处理方式的 jsonp 功能
+* add: mock [操作文档](https://github.com/rinh/fekit/tree/master/docs/mock)
+
+# 0.2.77
+* fix: mock 的端口问题
+
+# 0.2.76
+* fix: mock 时使用正则的多路径的问题
+
+# 0.2.75
+* fix: server environment 的 bug 问题
+
+# 0.2.74
+* fix: server environment 的 bug 问题
+
+# 0.2.73
+* fix: server 的 bug 问题
+
+# 0.2.72
+* fix: tag 添加脚本
+* add: 添加环境变量功能
+
+# 0.2.71
+* modify: livereload 改为非默认开启，使用 server -l 开启
+* add: mock jsonp 支持
+* fix: mock 的配置文件路径修正
+* fix: 同名且不同后缀名引用问题
+* fix: 修正强制分布为 simg1
+
 # 0.2.70
 * add: 添加 sass 和 scss 扩展名的支持
 * add: 删除 UTF-8 的 BOM 头
